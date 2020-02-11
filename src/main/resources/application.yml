@@ -1,0 +1,11 @@
+micronaut:
+    application:
+        name: mn-service
+    io:
+        watch:
+            paths: src/main
+            restart: true
+api:
+    github:
+        token: your-token-here
+        username: your-username-here
